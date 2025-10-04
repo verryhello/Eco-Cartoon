@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eco Carton</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+    <!--Nav-->
+      <h1>Eco Carton Exhange</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#how">How It Works</a>
+        <a href="#drop">Drop Poin</a>
+      </nav>
+    </header>
+    <!--Hero-->
+    <section id="home" class="hero">
+      <h1 class="fade-in">Ubah Karton Menjadi Cuan</h1>
+    </section>
+    <!--calculator-->
+    <div class="container">
+      <div class="calculator bounce">
+        <h2>Kalkulator Karton</h2>
+        <p>Masuka jumlah karton anda untuk mengetahui cuan yang didapatkan</p>
+        <input type="number" id="carton input" placeholder="jumlah karton" />
+        <button onclick="calculatevalue()">Hitung</button>
+        <div class="result" id="result text"></div>
+      </div>
+    </div>
+    <!--statistik-->
+    <div class="stats">
+      <div class="card fade-up">
+        <h3>10.000+</h3>
+        <p>Karton terkumpul</p>
+      </div>
+      <div class="card fade-up">
+        <h3>500kg</h3>
+        <p>Karton Daur Ulang</p>
+      </div>
+      <div class="card fade-up">
+        <h3>1 Ton</h3>
+        <p>Polusi Yang Terbuang</p>
+      </div>
+    </div>
+    <!--Tutorial Mendapatkan Cuan-->
+    <section id="how" class="container">
+      <h2>Tutorial Mendapatkan Cuan</h2>
+      <p>Langkah mudah mengubah karton menjadi cuan</p>
+      <div class="steps"></div>
+      <div class="step"></div>
+      <h3>1. Kumpulkan</h3>
+      <p>Kumpulkan karton bekas dari rumah, sekolah, dan linkungan sekitar</p>
+      <div class="step"></div>
+      <h3>2. Tukarkan</h3>
+      <p>Bawa karton ke drop poin terdekat untuk ditukar dengan poin cuan</p>
+      <div class="step"></div>
+      <h3>3. daur ulang</h3>
+      <p>
+        Karton akan dikumpulkan menjadi produk baru. Seperti bahan baku bangunan
+        atau kerajian
+      </p>
+    </section>
+    <!--Drop Point-->
+    <section id="drop" class="container">
+        <h2>Drop Points</h2>
+        <p>Cari lokasi terdekat untuk menukarkan karton anda :</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d555.6202012835264!2d110.39369012765349!3d-7.007944127433029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b0e498e70bb%3A0x9ef53c6e4af92dd!2sGg.%204%2C%20Sampangan%2C%20Kec.%20Gajahmungkur%2C%20Kota%20Semarang%2C%20Jawa%20Tengah%2050232!5e0!3m2!1sen!2sid!4v1758941970747!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>></iframe>
+    </section>
+    <!--footer-->
+    <footer>&copy; 2025 Eco Carton Exhange | Original by Sadira Sachi Ardanta</footer>
+    <script src="frontend.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+body {
+  background-color: aqua;
+  font-family: arial;
+}
+header {
+  font-size: 20px;
+  width: 800px;
+  background-color: aquamarine;
+  margin: auto;
+  padding: 20px;
+  color: white;
+}
+menu {
+  width: 800px;
+  padding: 20px;
+  background: #3498db;
+  margin: auto;
+}
+menu a {
+  color: blue;
+  margin: 0 20px 0 0;
+}
+article {
+  width: 800px;
+  background-color: beige;
+  padding: 20px;
+  margin: auto;
+}
+article h1 {
+  margin: 0 0 10px 0;
+}
+article p {
+  margin: 0 0 20px 0;
+  line-height: 25px;
+}
+article a {
+  margin: 0 0 20px 0;
+  color: black;
+}
+footer {
+  width: 800px;
+  background-color: antiquewhite;
+  padding: 5px 20px 5px 20px;
+  margin: auto;
+  text-align: center;
+}
